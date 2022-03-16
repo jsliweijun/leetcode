@@ -21,6 +21,7 @@ function twoSum(nums: number[], target: number): number[] {
 
 /**
  *
+ * target - x = y ，一次循环时可以记录下次需要的值，同时也记录了这次的位置。
  * @param nums
  * @param target
  * @returns
