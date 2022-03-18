@@ -5,6 +5,6 @@ test('nums = [2,7,11,15], target = 9', () => {
 });
 
 test('nums = [2,7,11,15], target = 9 , twoSumWithMap', () => {
-    console.log(twoSumWithMap([2, 7, 11, 15], 9));
+    //console.log(twoSumWithMap([2, 7, 11, 15], 9));
     expect(twoSumWithMap([2, 7, 11, 15], 9)).toStrictEqual([0, 1]);
 });
