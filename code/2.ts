@@ -30,7 +30,7 @@ export function addTwoNumbers(l1: ListNode | null, l2: ListNode | null): ListNod
             sum = l1Value + l2Value;
         }
         if (sum < 10) {
-            console.log(sum);
+            //     console.log(sum);
             let node = new ListNode(sum);
             if (resList == null) {
                 resList = node;
@@ -42,7 +42,7 @@ export function addTwoNumbers(l1: ListNode | null, l2: ListNode | null): ListNod
             ten = 0;
         } else {
             sum = parseInt(sum.toString().substring(1));
-            console.log(sum);
+            //        console.log(sum);
             let node = new ListNode(sum);
             if (resList == null) {
                 resList = node;
