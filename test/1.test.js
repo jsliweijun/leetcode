@@ -1,4 +1,4 @@
-const { twoSum, twoSumWithMap } = require('../code/1.ts');
+const { twoSum, twoSumWithMap } = require('../02_code/1.ts');
 
 test('nums = [2,7,11,15], target = 9', () => {
     expect(twoSum([2, 7, 11, 15], 9)).toStrictEqual([0, 1]);

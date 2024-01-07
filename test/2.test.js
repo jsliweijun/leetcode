@@ -1,4 +1,4 @@
-const { ListNode, addTwoNumbers, addTwoNumbers2 } = require('../code/2.ts');
+const { ListNode, addTwoNumbers, addTwoNumbers2 } = require('../02_code/2.ts');
 
 test('[2,4,3]  [5,6,4]', () => {
     let l1 = new ListNode(2, new ListNode(4, new ListNode(3)));

@@ -1,4 +1,4 @@
-const { lengthOfLongestSubstring } = require('../code/3.ts');
+const { lengthOfLongestSubstring } = require('../02_code/3.ts');
 
 test('s = "abcabcbb"  输出 3', () => {
     expect(lengthOfLongestSubstring('abcabcbb')).toStrictEqual(3);

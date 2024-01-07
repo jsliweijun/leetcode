@@ -1,13 +1,4 @@
-//  给定一个整数数组 nums 和一个整数目标值 target，请你在该数组中找出 和为目标值 target  的那 两个 整数，并返回它们的数组下标。
-//  你可以假设每种输入只会对应一个答案。但是，数组中同一个元素在答案里不能重复出现。
-//  你可以按任意顺序返回答案。
-
-/**
- *
- * @param nums
- * @param target
- * @returns
- */
+// 两次循环,暴力破解
 function twoSum(nums: number[], target: number): number[] {
     for (let i = 0; i < nums.length; i++) {
         for (let j = i + 1; j < nums.length; j++) {
@@ -19,13 +10,8 @@ function twoSum(nums: number[], target: number): number[] {
     return [];
 }
 
-/**
- *
- * target - x = y ，一次循环时可以记录下次需要的值，同时也记录了这次的位置。
- * @param nums
- * @param target
- * @returns
- */
+// target - x = y ，一次循环时可以记录下次需要的值，同时也记录了这次的位置。
+// 记住值的索引
 function twoSumWithMap(nums: number[], target: number): number[] {
     let map = new Map();
     for (let i = 0; i < nums.length; i++) {

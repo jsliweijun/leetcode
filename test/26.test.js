@@ -1,4 +1,4 @@
-const { removeDuplicates } = require('../code/26');
+const { removeDuplicates } = require('../02_code/26');
 
 test('nums= [1,1,2]', () => {
     expect(removeDuplicates([1, 1, 2])).toStrictEqual(2);
